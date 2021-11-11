@@ -10,8 +10,13 @@ Follow-up: what if you can't use division?*/
 
 let input = [1, 2, 3, 4, 5];
 function sumOfAll(arr) {
-  let newSum = (previousValue, currentValue, ) => previousValue * currentValue;
-    console.log(arr.reduce(newSum));
+    let newSum = [];
+    for (let i = 0; i < arr.length; i++){
+        newSum = (previousValue, currentValue, ) => previousValue * currentValue;
+        
+        console.log(arr.reduce(newSum));
+
+    }
   
 }
 sumOfAll(input);
